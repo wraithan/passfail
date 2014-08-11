@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "runs nodemon and allows for setting commands to execute on results",
   "main": "index.js",
+  "bin": {
+    "passfail": "./index.js"
+  },
   "scripts": {
     "test": "tap ./**/*.tap.js"
   },
