@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var nodemon = require('nodemon')
 var childProcess = require('child_process')
 
